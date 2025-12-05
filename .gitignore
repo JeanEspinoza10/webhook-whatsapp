@@ -1,0 +1,43 @@
+# ----------------------------------------------
+# DEPENDENCIAS
+# Ignorar el directorio de módulos instalados por npm/yarn
+# ----------------------------------------------
+/node_modules
+/jspm_packages/
+
+# ----------------------------------------------
+# ARCHIVOS GENERADOS (Compilación, Logs, Testing)
+# ----------------------------------------------
+/dist
+/build
+/temp
+/coverage
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+.nyc_output
+
+# ----------------------------------------------
+# ARCHIVOS DE CONFIGURACIÓN Y SECRETO
+# Estos archivos contienen claves, credenciales o variables de entorno
+# específicas del entorno local y NO deben ir a Git.
+# ----------------------------------------------
+.env
+.env.*
+.local
+config/local.json
+config/development.json
+
+# ----------------------------------------------
+# SISTEMAS OPERATIVOS Y EDITORES
+# Ignorar archivos generados por el SO o editores como VS Code
+# ----------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+# Para Sublime Text
+*.sublime-project
+*.sublime-workspace
