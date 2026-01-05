@@ -4,7 +4,7 @@
 # ----------------------------------------------
 /node_modules
 /jspm_packages/
-
+package-lock.json
 # ----------------------------------------------
 # ARCHIVOS GENERADOS (Compilación, Logs, Testing)
 # ----------------------------------------------
